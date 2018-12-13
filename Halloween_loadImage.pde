@@ -3,14 +3,14 @@
 PImage img;
 
 void setup() {
-  size(800, 500);
-  img= loadImage("GWENDY.Hallowee.jpg");
+  size(400, 300);
+  img= loadImage("GWENDY.Halloween.jpg");
   image(img, 0, 0);
 }
 
 void draw()
 {
-  save("GWENDY.Hallowee.jpg");
+  save("GWENDY.Halloween.jpg");
 }
 
 void mouseDragged()
